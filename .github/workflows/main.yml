@@ -36,4 +36,4 @@ jobs:
    - name: checking war file
      run: |
       cd target
-      ls
+      
