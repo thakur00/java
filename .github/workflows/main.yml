@@ -29,3 +29,8 @@ jobs:
      
    - name: unit test
      run: mvn test
+     
+   - name: checking war file
+     run: |
+      cd target
+      ls
